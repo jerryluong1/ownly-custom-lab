@@ -54,7 +54,7 @@ export default function Home() {
             {[...Array(2)].map((_, index) => (
               <div key={index} className="relative h-full w-auto shrink-0 flex items-center pr-8">
                 <img 
-                  src="/banner.png?v=2" 
+                  src="/ownly-custom-lab/banner.png?v=2" 
                   alt="Ownly Custom Lab Banner" 
                   className="h-full w-auto object-contain"
                 />
@@ -77,7 +77,7 @@ export default function Home() {
             {[...Array(2)].map((_, index) => (
               <div key={index} className="relative h-full w-auto shrink-0 flex items-center pr-8">
                 <img 
-                  src="/banner-bottom.png" 
+                  src="/ownly-custom-lab/banner-bottom.png" 
                   alt="Ownly Custom Lab Banner Bottom" 
                   className="h-full w-auto object-contain"
                 />
