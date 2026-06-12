@@ -6,6 +6,7 @@ export function generateStaticParams() {
     { slug: "noi-nang-ve-xuong-che-tac" },
     { slug: "viet-ve-kinh-mat-ha-noi" },
     { slug: "nghe-thuat-danh-bong-acetate" },
+    { slug: "goc-nho-cua-tho-kinh" },
     { slug: "tu-ban-ve-den-gong-kinh" },
   ];
 }
