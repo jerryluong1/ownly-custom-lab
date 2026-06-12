@@ -17,8 +17,8 @@ const steps = [
     description:
       "Mỗi khuôn mặt là một tỷ lệ duy nhất. OWNLY sẽ đo đạc chính xác để xác định chiếc kính có tỷ lệ phù hợp — thoải mái khi đeo, không cần chỉnh sửa.",
     note: undefined,
-    image1: "/step-01-left.jpg",
-    image2: "/step-01-right.jpg",
+    image1: "/ownly-custom-lab/step-01-left.jpg",
+    image2: "/ownly-custom-lab/step-01-right.jpg",
   },
   {
     id: "02",
@@ -27,8 +27,8 @@ const steps = [
     description:
       "Từ oval thanh lịch, cat-eye cá tính đến aviator mạnh mẽ — 30+ kiểu dáng được thiết kế để tôn lên từng đường nét khuôn mặt. OWNLY sẽ hỗ trợ bạn tìm hình dáng phù hợp nhất.",
     note: undefined,
-    image1: "/step-02-left.jpg",
-    image2: "/step-02-right.jpg",
+    image1: "/ownly-custom-lab/step-02-left.jpg",
+    image2: "/ownly-custom-lab/step-02-right.jpg",
   },
   {
     id: "03",
@@ -37,8 +37,8 @@ const steps = [
     description:
       "Không phải màu nào cũng hợp với bạn. OWNLY áp dụng phân tích Personal Color để xác định màu kính phù hợp với bạn.",
     note: "Kết quả Personal Color trở thành nền tảng cho bước chọn màu tiếp theo — để chiếc kính thực sự tôn lên vẻ đẹp vốn có của bạn.",
-    image1: "/step-03-left.jpg",
-    image2: "/step-03-right.jpg",
+    image1: "/ownly-custom-lab/step-03-left.jpg",
+    image2: "/ownly-custom-lab/step-03-right.jpg",
   },
   {
     id: "04",
@@ -47,8 +47,8 @@ const steps = [
     description:
       "Từ kết quả Personal Color, bạn chọn màu cho mặt kính và càng kính — đồng màu tinh tế hoặc phối tương phản cá tính. Hơn 100 màu Acetate cao cấp, từ đen thanh lịch, tortoise ấm áp đến trong suốt tinh tế.",
     note: "Mặt kính và càng kính có thể mang hai màu khác nhau — đây là đặc quyền chỉ có ở kính tùy chỉnh.",
-    image1: "/step-04-left.jpg",
-    image2: "/step-04-right.jpg",
+    image1: "/ownly-custom-lab/step-04-left.jpg",
+    image2: "/ownly-custom-lab/step-04-right.jpg",
   },
   {
     id: "05",
@@ -57,8 +57,8 @@ const steps = [
     description:
       "Khắc tên, ký tự viết tắt hoặc biểu tượng riêng lên càng kính. Một chi tiết nhỏ biến chiếc kính thành vật phẩm độc nhất trên thế giới — được tạo ra chỉ cho bạn, bởi bạn.",
     note: "Chiếc kính mang đúng tên bạn sẽ được bàn giao trong hộp quà OWNLY.",
-    image1: "/step-05-left.jpg",
-    image2: "/step-05-right.jpg",
+    image1: "/ownly-custom-lab/step-05-left.jpg",
+    image2: "/ownly-custom-lab/step-05-right.jpg",
   },
 ];
 
