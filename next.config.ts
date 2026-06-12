@@ -1,17 +1,16 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
+
+const repoName = "ownly-custom-lab";
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  output: "export",
+  trailingSlash: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      }
-    ],
+    unoptimized: true,
   },
+  basePath: isProd ? `/${repoName}` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
 };
 
 export default nextConfig;
