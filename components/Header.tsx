@@ -478,12 +478,12 @@ export default function Header() {
 
                   <nav className="flex flex-col gap-[22px] text-[15px] uppercase tracking-wider font-semibold font-raleway text-graphite">
                     <a href="/" onClick={closeModal} className={`transition-colors ${isActive("/") ? "text-amber" : "hover:text-amber"}`}>Trang chủ</a>
-                    <a href="/about" onClick={closeModal} className={`transition-colors ${isActive("/about") ? "text-amber" : "hover:text-amber"}`}>Về chúng tôi</a>
-                    <a href="/catalogue" onClick={closeModal} className={`transition-colors ${isActive("/catalogue") ? "text-amber" : "hover:text-amber"}`}>Catalogue</a>
-                    <a href="/stories" onClick={closeModal} className={`transition-colors ${isActive("/stories") ? "text-amber" : "hover:text-amber"}`}>Stories</a>
-                    <a href="/partnership" onClick={closeModal} className={`transition-colors ${isActive("/partnership") ? "text-amber" : "hover:text-amber"}`}>Hợp Tác</a>
-                    <a href="/warranty" onClick={closeModal} className={`transition-colors ${isActive("/warranty") ? "text-amber" : "hover:text-amber"}`}>Chính sách bảo hành</a>
-                    <a href="/contact" onClick={closeModal} className={`transition-colors ${isActive("/contact") ? "text-amber" : "hover:text-amber"}`}>Liên hệ</a>
+                    <a href="/ownly-custom-lab/about" onClick={closeModal} className={`transition-colors ${isActive("/about") ? "text-amber" : "hover:text-amber"}`}>Về chúng tôi</a>
+                    <a href="/ownly-custom-lab/catalogue" onClick={closeModal} className={`transition-colors ${isActive("/catalogue") ? "text-amber" : "hover:text-amber"}`}>Catalogue</a>
+                    <a href="/ownly-custom-lab/stories" onClick={closeModal} className={`transition-colors ${isActive("/stories") ? "text-amber" : "hover:text-amber"}`}>Stories</a>
+                    <a href="/ownly-custom-lab/partnership" onClick={closeModal} className={`transition-colors ${isActive("/partnership") ? "text-amber" : "hover:text-amber"}`}>Hợp Tác</a>
+                    <a href="/ownly-custom-lab/warranty" onClick={closeModal} className={`transition-colors ${isActive("/warranty") ? "text-amber" : "hover:text-amber"}`}>Chính sách bảo hành</a>
+                    <a href="/ownly-custom-lab/contact" onClick={closeModal} className={`transition-colors ${isActive("/contact") ? "text-amber" : "hover:text-amber"}`}>Liên hệ</a>
                   </nav>
                 </div>
 
