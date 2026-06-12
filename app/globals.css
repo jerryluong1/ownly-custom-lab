@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Neutrals */
+    --paper: #FEFCFA; 
+    --cream: #EFE7D7; 
+    --sand: #E2D5BE; 
+    --taupe: #B9A98D;
+    --ink: #1A1814; 
+    --graphite: #4A443B; 
+    --muted: #8C8472;
+    
+    /* Brand spine */
+    --amber: #D9A513; 
+    --amber-deep: #B58A10; 
+    --woody: #5E3F27; 
+    --ginger: #F2C143;
+    
+    /* Customization accents */
+    --mango: #F2B63C; 
+    --rose: #E3A1AB; 
+    --ice: #A7D3DD;
+    --prussian: #28435A; 
+    --sage: #B7C29A; 
+    --eco: #6E7A4F;
+    
+    /* Radius */
+    --r-sm: 6px; 
+    --r-md: 14px; 
+    --r-lg: 26px; 
+    --r-pill: 999px;
+    
+    /* Elevation */
+    --shadow-sm: 0 1px 2px rgba(26,24,20,.06);
+    --shadow-md: 0 8px 28px -12px rgba(26,24,20,.22);
+  }
+  
+  body {
+    @apply bg-paper text-ink font-body min-h-screen antialiased;
+  }
+
+  /* Lenis smooth scroll recommended CSS */
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-smooth iframe {
+    pointer-events: none;
+  }
+}

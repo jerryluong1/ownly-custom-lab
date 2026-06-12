@@ -1,0 +1,6 @@
+{
+  "name": "Ownly Custom Lab",
+  "description": "Design · Customize · Own It",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
