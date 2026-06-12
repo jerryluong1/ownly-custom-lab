@@ -176,7 +176,7 @@ export default function Header() {
           <div className="flex-shrink-0" id="header-logo-container">
             <a href="/" className="flex items-center hover:opacity-85 transition-opacity">
               <Image 
-                src="/logo.png" 
+                src="/ownly-custom-lab/logo.png" 
                 alt="Baoquang Optic Logo" 
                 width={200} 
                 height={60} 
@@ -464,7 +464,7 @@ export default function Header() {
                 <div className="space-y-8">
                   <div className="flex justify-between items-center pb-4 border-b border-sand">
                     <Image 
-                      src="/logo.png" 
+                      src="/ownly-custom-lab/logo.png" 
                       alt="Baoquang Optic Logo" 
                       width={130} 
                       height={40} 
