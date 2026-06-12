@@ -87,7 +87,7 @@ export default function StoriesPage() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-16">
               {stories.map((item, index) => (
-                <Link href={`/ownly-custom-lab/stories/${item.slug}/`} key={item.id} className="block">
+                <Link href={`/stories/${item.slug}/`} key={item.id} className="block">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
