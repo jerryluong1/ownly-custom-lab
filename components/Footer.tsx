@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="mb-12 lg:mb-0 shrink-0">
             <div className="flex items-center h-full pt-2">
               <Image 
-                src="/logo.png" 
+                src="/ownly-custom-lab/logo.png" 
                 alt="Baoquang Optic Logo" 
                 width={280} 
                 height={70}
