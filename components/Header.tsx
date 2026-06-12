@@ -189,7 +189,7 @@ export default function Header() {
           <div className="flex items-center gap-10" id="header-nav-container">
             <nav className="hidden xl:flex items-center gap-[34px] text-[15px] font-medium tracking-wide whitespace-nowrap text-graphite font-raleway">
               <a 
-                href="/" 
+                href="/ownly-custom-lab/" 
                 className={`transition-colors relative py-1 ${
                   isActive("/") 
                     ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" 
