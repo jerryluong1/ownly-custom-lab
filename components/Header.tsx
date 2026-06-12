@@ -219,6 +219,8 @@ export default function Header() {
                 Catalogue
               </a>
               <a 
+
+                
                 href="/ownly-custom-lab/stories/" 
                 className={`transition-colors relative py-1 ${
                   isActive("/stories") 
@@ -477,7 +479,7 @@ export default function Header() {
                   </div>
 
                   <nav className="flex flex-col gap-[22px] text-[15px] uppercase tracking-wider font-semibold font-raleway text-graphite">
-                    <a href="/" onClick={closeModal} className={`transition-colors ${isActive("/") ? "text-amber" : "hover:text-amber"}`}>Trang chủ</a>
+                    <a href="/ownly-custom-lab/" onClick={closeModal} className={`transition-colors ${isActive("/") ? "text-amber" : "hover:text-amber"}`}>Trang chủ</a>
                     <a href="/ownly-custom-lab/about" onClick={closeModal} className={`transition-colors ${isActive("/about") ? "text-amber" : "hover:text-amber"}`}>Về chúng tôi</a>
                     <a href="/ownly-custom-lab/catalogue" onClick={closeModal} className={`transition-colors ${isActive("/catalogue") ? "text-amber" : "hover:text-amber"}`}>Catalogue</a>
                     <a href="/ownly-custom-lab/stories" onClick={closeModal} className={`transition-colors ${isActive("/stories") ? "text-amber" : "hover:text-amber"}`}>Stories</a>
