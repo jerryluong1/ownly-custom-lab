@@ -174,7 +174,7 @@ export default function Header() {
       >
         <div className="w-full max-w-[1170px] mx-auto flex justify-between items-center px-6 xl:px-0">
           <div className="flex-shrink-0" id="header-logo-container">
-            <a href="/" className="flex items-center hover:opacity-85 transition-opacity">
+            <a href="/ownly-custom-lab/" className="flex items-center hover:opacity-85 transition-opacity">
               <Image 
                 src="/ownly-custom-lab/logo.png" 
                 alt="Baoquang Optic Logo" 
