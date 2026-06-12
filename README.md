@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Ownly Custom Lab
 
-# Run and deploy your AI Studio app
+Official website source code for Ownly Custom Lab.
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/c862ca3d-d04e-471a-b7cb-186bd082ce0c
+Ownly Custom Lab is a custom design and creative product website.
 
-## Run Locally
+## Website
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This project is built with Next.js, React, TypeScript and Tailwind CSS.
