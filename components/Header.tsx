@@ -199,7 +199,7 @@ export default function Header() {
                 Trang Chủ
               </a>
               <a 
-                href="/about" 
+                href="/ownly-custom-lab/about/" 
                 className={`transition-colors relative py-1 ${
                   isActive("/about") 
                     ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" 
@@ -209,7 +209,7 @@ export default function Header() {
                 Về Chúng Tôi
               </a>
               <a 
-                href="/catalogue" 
+                href="/ownly-custom-lab/catalogue/" 
                 className={`transition-colors relative py-1 ${
                   isActive("/catalogue") 
                     ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" 
@@ -219,7 +219,7 @@ export default function Header() {
                 Catalogue
               </a>
               <a 
-                href="/stories" 
+                href="/ownly-custom-lab/stories/" 
                 className={`transition-colors relative py-1 ${
                   isActive("/stories") 
                     ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" 
@@ -228,9 +228,9 @@ export default function Header() {
               >
                 Stories
               </a>
-              <a href="/partnership" className={`transition-colors relative py-1 ${isActive("/partnership") ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" : "hover:text-amber"}`}>Hợp Tác</a>
-              <a href="/warranty" className={`transition-colors relative py-1 ${isActive("/warranty") ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" : "hover:text-amber"}`}>Chính Sách Bảo Hành</a>
-              <a href="/contact" className={`transition-colors relative py-1 ${isActive("/contact") ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" : "hover:text-amber"}`}>Liên Hệ</a>
+              <a href="/ownly-custom-lab/partnership//" className={`transition-colors relative py-1 ${isActive("/partnership") ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" : "hover:text-amber"}`}>Hợp Tác</a>
+              <a href="/ownly-custom-lab/warranty/" className={`transition-colors relative py-1 ${isActive("/warranty") ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" : "hover:text-amber"}`}>Chính Sách Bảo Hành</a>
+              <a href="/ownly-custom-lab/contact/" className={`transition-colors relative py-1 ${isActive("/contact") ? "text-amber font-semibold after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-amber" : "hover:text-amber"}`}>Liên Hệ</a>
             </nav>
 
             <div className="flex items-center gap-6">
